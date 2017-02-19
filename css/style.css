@@ -20,3 +20,17 @@ header img {
 	margin: 0 20px 0 40px;
 	float: right;
 }
+nav {
+	margin-top: 40px;
+	margin-bottom: 25px;
+	text-align: right;
+}
+
+span {
+	margin: 0 2px 0 2px;
+}
+.label {
+	font-size: 1.2em;
+	cursor: pointer;
+	background-color: #F4D00C;
+}
