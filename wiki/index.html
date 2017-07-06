@@ -77,9 +77,9 @@
         <section id="pinBoot">
 
             <article class="white-panel" ng-repeat="article in articles | filter:query | orderBy:orderProp">
-                <img ng-src="{{ article.image }}" alt="">
+                <img ng-src="{{ article.image }}" alt="{{article.image}}">
                 <h4><a href="#">{{ article.title }}</a></h4>
-                <p>{{ article.snippet }}</p>
+                <p>{{ article.snippet | limitTo : 200 : 0}}</p>
             </article>
 
         </section>
@@ -91,6 +91,5 @@
     </div>
 
 </div>
-
 </body>
 </html>
