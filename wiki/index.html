@@ -53,7 +53,6 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-
             <!-- Search form -->
             <form role="search" class="navbar-form navbar-right">
                 <div class="form-group">
@@ -70,24 +69,18 @@
 <div class="container">
     <div class="row">
         <h2>My Personal Programming WIKI</h2>
-
         <hr>
         <div class="clearfix"></div>
         <br>
         <section id="pinBoot">
-
             <article class="white-panel" ng-repeat="article in articles | filter:query | orderBy:orderProp">
-                <img ng-src="{{ article.image }}" alt="{{article.image}}">
-                <h4><a href="#">{{ article.title }}</a></h4>
-                <p>{{ article.snippet | limitTo : 200 : 0}}</p>
+                <img ng-src="{{article.image}}" alt="{{article.image}}">
+                <h4><a href="#">{{article.title}}</a></h4>
+                <!--<p>{{article.snippet | limitTo : 200 : 0}}</p>-->
+                <p>{{article.snippet}}</p>
             </article>
-
         </section>
-
-
         <hr>
-
-
     </div>
 
 </div>
