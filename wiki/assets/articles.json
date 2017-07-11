@@ -28,15 +28,16 @@
 
   {
     "age": 5,
-    "title": "Title 5",
-    "snippet": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "image": "http://i.imgur.com/o2RVMqm.jpg"
+    "title": "Array",
+    "snippet": "У массивов есть несколько полезных методов высшего порядка – forEach, чтобы сделать что-то с каждым элементом, filter – чтобы построить новый массив, где некоторые значения отфильтрованы, map – чтобы построить новый массив, каждый элемент которого пропущен через функцию, reduce – для комбинации всех элементов массива в одно значение",
+    "image": "img/array.png"
   },
   {
     "age": 6,
-    "title": "Title 6",
-    "snippet": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    "image": "http://i.imgur.com/kFFpuKA.jpg"
+    "title": "Strict mode",
+    "snippet": "Режим strict (строгий режим), введенный в ECMAScript 5, позволяет использовать более строгий вариант JavaScript. Это не просто подмножество языка: в нем сознательно используется семантика, отличающаяся от обычно принятой. Не поддерживающие строгий режим браузеры будут по-другому выполнять код, написанный для строгого режима, поэтому не полагайтесь на строгий режим без тестирования поддержки используемых особенностей этого режима. Строгий и обычный режим могут сосуществовать одновременно, а скрипт может переключаться в строгий режим по мере надобности. Строгий режим принёс ряд изменений в обычную семантику JavaScript. Во-первых, строгий режим заменяет исключениями некоторые ошибки, которые интерпретатор JavaScript ранее молча пропускал. Во-вторых, строгий режим исправляет ошибки, которые мешали движкам JavaScript выполнять оптимизацию -- в некоторых случаях код в строгом режиме может быть оптимизирован для более быстрого выполнения, чем код в обычном режиме. В-третьих, строгий режим запрещает использовать некоторые элементы синтаксиса, которые, вероятно, в следующих версиях ECMAScript получат особый смысл.",
+    "image": "http://i.imgur.com/kFFpuKA.jpg",
+    "example1": "'use strict'; var v = 'Привет! Я скрипт в строгом режиме!';"
   },
   {
     "age": 7,
